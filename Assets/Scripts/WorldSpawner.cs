@@ -2,11 +2,13 @@ using UnityEngine;
 
 public class WorldSpawner : MonoBehaviour
 {
-    [SerializeField] GameObject[] worldChunks;
+    [SerializeField] GameObject worldChunks;
+    [SerializeField] float delay;
+    [SerializeField] float repeat;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        InvokeRepeating("SpawnChunk", delay, repeat);
     }
 
     // Update is called once per frame
@@ -17,7 +19,6 @@ public class WorldSpawner : MonoBehaviour
 
     public void SpawnChunk()
     {
-        int randomIndex = Random.Range(0, worldChunks.Length);
-        GameObject chunk = Instantiate(worldChunks[randomIndex], transform.position, Quaternion.identity);
+        GameObject chunk = Instantiate(worldChunks, transform.position, Quaternion.identity);
     }
 }

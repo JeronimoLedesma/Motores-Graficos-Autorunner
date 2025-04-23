@@ -15,7 +15,7 @@ public class PLayerScript : MonoBehaviour
     {
        pos = self.transform.position;
        rb = GetComponent<Rigidbody>();
-        canJump = true;
+       canJump = true;
     }
 
     // Update is called once per frame
@@ -62,10 +62,12 @@ public class PLayerScript : MonoBehaviour
         if (collision.gameObject.CompareTag("Obstacle"))
         {
             //lose
+            Debug.Log("Hit an obstacle");
         }
         if (collision.gameObject.CompareTag("Floor"))
         {
             canJump = true;
+            Debug.Log("HitFloor");
         }
     }
 }
