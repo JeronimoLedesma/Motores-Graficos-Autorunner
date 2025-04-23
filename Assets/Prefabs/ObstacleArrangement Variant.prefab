@@ -70,6 +70,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 367379297599635533, guid: 24421261660add64ea974acaffafa1fa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 367379297599635533, guid: 24421261660add64ea974acaffafa1fa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4334647791020552840, guid: 24421261660add64ea974acaffafa1fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -113,6 +121,18 @@ PrefabInstance:
     - target: {fileID: 6440514817160538533, guid: 24421261660add64ea974acaffafa1fa, type: 3}
       propertyPath: m_Name
       value: ObstacleArrangement Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6842379931271640654, guid: 24421261660add64ea974acaffafa1fa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7251102081399105536, guid: 24421261660add64ea974acaffafa1fa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8732957729312714512, guid: 24421261660add64ea974acaffafa1fa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

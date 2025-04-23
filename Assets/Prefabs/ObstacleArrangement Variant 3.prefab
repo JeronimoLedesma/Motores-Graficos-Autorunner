@@ -153,13 +153,24 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5464333312319418271, guid: dbc9c216e4e035b499a0f310f9a1d5af, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 19
+      objectReference: {fileID: 0}
     - target: {fileID: 5494809789003903092, guid: dbc9c216e4e035b499a0f310f9a1d5af, type: 3}
       propertyPath: m_Name
       value: ObstacleArrangement Variant 3
       objectReference: {fileID: 0}
+    - target: {fileID: 8178858622621020625, guid: dbc9c216e4e035b499a0f310f9a1d5af, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.17
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 7956865975747533849, guid: dbc9c216e4e035b499a0f310f9a1d5af, type: 3}
+    - {fileID: 7291043807245716509, guid: dbc9c216e4e035b499a0f310f9a1d5af, type: 3}
+    - {fileID: 4821749038152668483, guid: dbc9c216e4e035b499a0f310f9a1d5af, type: 3}
+    - {fileID: 464494739913337761, guid: dbc9c216e4e035b499a0f310f9a1d5af, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 2956596982814272345, guid: dbc9c216e4e035b499a0f310f9a1d5af, type: 3}
       insertIndex: -1

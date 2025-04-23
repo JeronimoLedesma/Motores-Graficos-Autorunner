@@ -52,6 +52,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: ObstacleArrangement Variant 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6844576539949560208, guid: f77d0aff67cdd3a4c964531d5e56437e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6844576539949560208, guid: f77d0aff67cdd3a4c964531d5e56437e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7253259122693173214, guid: f77d0aff67cdd3a4c964531d5e56437e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.81
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:

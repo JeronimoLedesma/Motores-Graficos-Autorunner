@@ -68,5 +68,10 @@ public class PLayerScript : MonoBehaviour
         {
             canJump = true;
         }
+        if (collision.gameObject.CompareTag("Collectable"))
+        {
+            Score.score += 100;
+            Destroy(collision.gameObject);
+        }
     }
 }

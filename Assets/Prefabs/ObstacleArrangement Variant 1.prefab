@@ -12,6 +12,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: ObstacleArrangement Variant 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3240935984762793332, guid: e03c493b319de4246810659b694edf24, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3471109413518315852, guid: e03c493b319de4246810659b694edf24, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
     - target: {fileID: 6022505428624780370, guid: e03c493b319de4246810659b694edf24, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2
