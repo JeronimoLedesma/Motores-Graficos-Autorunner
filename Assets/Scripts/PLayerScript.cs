@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PLayerScript : MonoBehaviour
 {
@@ -61,13 +62,11 @@ public class PLayerScript : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Obstacle"))
         {
-            //lose
-            Debug.Log("Hit an obstacle");
+            SceneManager.LoadScene(1);
         }
         if (collision.gameObject.CompareTag("Floor"))
         {
             canJump = true;
-            Debug.Log("HitFloor");
         }
     }
 }
